@@ -1,0 +1,229 @@
+body {
+    background-color: black;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Domine', serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    display: inline-block;
+}
+
+/* nav {
+    background-color: rgb(16, 16, 16);
+    width: 100%;
+    z-index: 9;
+    top: 0px;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+    margin: 1em;
+}
+
+nav ul a:hover {
+    color: rgb(127, 127, 127);
+}
+
+.burger img{
+    margin: 5px 6px;
+    
+    margin: 5px 8px;
+    height: 3rem;
+    width: 3rem;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    flex-direction: left;
+    display: none;
+} */
+
+/* #top{
+    width: 100%;   
+} */
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+}
+
+.image-container ul {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container .image {
+    z-index: -5;
+    width: 1466px;
+    height: 700px;
+    opacity: 0.2;
+    /* display: block; */
+
+}
+
+.image-text {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    font-size: 90px;
+    padding: 20px;
+}
+
+.image-text .name {
+    font-weight: bolder;
+    font-size: 100px;
+}
+
+.image-text .role {
+    font-size: medium;
+    font-size: 25px;
+    margin-top: 12px;
+}
+
+.heading {
+    margin: 2rem;
+    text-align: center;
+    font-size: 50px;
+}
+
+.headings {
+    font-style: italic;
+    margin-left: 3rem;
+    color: rgb(79, 78, 78);
+    
+}
+
+
+.section {
+    position: relative;
+    display: flex;
+    margin-top: 1rem;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+    border-radius: 12px;
+}
+
+.left-down {
+    background-color: rgb(16, 16, 16);
+    padding: 12px;
+    border-radius: 25px;
+    margin: 0px 2.5rem 4rem;
+    padding: 2.5rem;
+
+}
+
+.right-down {
+    padding: 12px;
+    border-radius: 25px;
+}
+.head {
+    color: rgb(15, 178, 0);
+}
+
+ul li {
+    font-size: larger;
+    margin-top: 1rem;
+} 
+
+.card {
+    color: white;
+    background-color: rgb(16, 16, 16);
+    font:italic;
+}
+
+.about {
+    display: flex;
+    /* padding: 3rem; */
+    justify-content: center;
+
+}
+
+.about img {
+    height: 30rem;
+    width: 35%;
+}
+
+.about-me {
+    width: 40rem;
+    margin: 4rem;
+    text-align: justify;
+}
+
+.btn {
+    background-color: rgb(72, 72, 72);
+    color: black;
+    margin: 0px 3px;
+}
+
+.form {
+    display: flex;
+    direction: calc();
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form input, textarea {
+    /* text-align: center; */
+    color: white;
+    padding: 8px;
+    margin-bottom: 2rem;
+    width: 25rem;
+    background-color: rgb(16, 16, 16);
+
+}
+
+.right p {
+    color: rgb(79, 78, 78);
+    font-size: 17px;
+}
+
+.anchor a img {
+    height: 3rem;
+    width: 3rem;
+    margin: 0px 3rem;
+}
+
+.anchor a :hover {
+    border: 4px solid rgb(66, 66, 66);
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    
+.image-container{
+
+    /* flex-direction: column; */
+    text-align: center;
+    /* display: inline; */
+/* flex-direction: column; */
+}
+.left-down ul{
+    list-style: none ;
+}
+.section{
+    flex-direction: column;
+    /* text-align: center; */
+    align-items: center;
+}
+
+    }
