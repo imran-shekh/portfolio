@@ -103,7 +103,7 @@ nav ul a:hover {
 .headings {
     font-style: italic;
     margin-left: 3rem;
-    color: rgb(79, 78, 78);
+    /* color: rgb(79, 78, 78); */
     
 }
 
@@ -121,6 +121,11 @@ nav ul a:hover {
 .right {
     width: 50%;
     border-radius: 12px;
+}
+.r-image{
+    margin-left: 5px;
+    height: 19px;
+    width: 20px;
 }
 
 .left-down {
@@ -193,7 +198,7 @@ ul li {
 }
 
 .right p {
-    color: rgb(79, 78, 78);
+    /* color: rgb(79, 78, 78); */
     font-size: 17px;
 }
 
